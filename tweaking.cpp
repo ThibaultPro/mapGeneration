@@ -423,7 +423,7 @@ void Tweaking::generateBunchOfMaps()
 
         std::string filename;
         std::ostringstream temp;
-        temp <<"maps/map"<<i<<".png";
+        temp <<":/maps/map"<<i<<".png";
 
         filename = temp.str();
 
