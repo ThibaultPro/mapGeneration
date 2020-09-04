@@ -166,7 +166,7 @@ void MainWindow::displayMaps()
         std::ostringstream temp1;
         std::ostringstream temp2;
 
-        temp1 <<":/maps/map"<<i<<".png";
+        temp1 <<"maps/map"<<i<<".png";
         filename = temp1.str();
 
         temp2<<"Seed ("<<i+1<<")";

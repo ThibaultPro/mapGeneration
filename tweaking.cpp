@@ -14,7 +14,6 @@ Tweaking::Tweaking(QWidget *parent) : QWidget(parent)
 {
     QVBoxLayout * layout = new QVBoxLayout(this);
 
-
     QPushButton * smallMap = new QPushButton;
     QPushButton * normalMap = new QPushButton;
     QPushButton * bigMap = new QPushButton;
@@ -423,7 +422,7 @@ void Tweaking::generateBunchOfMaps()
 
         std::string filename;
         std::ostringstream temp;
-        temp <<":/maps/map"<<i<<".png";
+        temp <<"maps/map"<<i<<".png";
 
         filename = temp.str();
 
@@ -431,7 +430,6 @@ void Tweaking::generateBunchOfMaps()
         QImage newMap = Mat2QImage(mapImg);
 
         newMap.save(str);
-
     }
     emit mapsGenerated();
 }

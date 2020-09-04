@@ -767,13 +767,7 @@ qrc_res.cpp: res.qrc \
 		../../../Qt/5.15.0/gcc_64/bin/rcc \
 		images/void_map.png \
 		images/CM_Continental.png \
-		images/test.png \
-		maps/map1.png \
-		maps/map5.png \
-		maps/map0.png \
-		maps/map4.png \
-		maps/map3.png \
-		maps/map2.png
+		images/test.png
 	/home/iterator/Qt/5.15.0/gcc_64/bin/rcc -name res res.qrc -o qrc_res.cpp
 
 compiler_moc_predefs_make_all: moc_predefs.h
