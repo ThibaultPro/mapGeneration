@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/test.png</file>
+        <file>images/void_map.png</file>
+        <file>images/CM_Continental.png</file>
+        <file>maps/map0.png</file>
+        <file>maps/map1.png</file>
+        <file>maps/map2.png</file>
+        <file>maps/map3.png</file>
+        <file>maps/map4.png</file>
+        <file>maps/map5.png</file>
+    </qresource>
+</RCC>
