@@ -5,7 +5,7 @@ It is fun tweaking around with the settings.
 Can be used in games by game developers or by psychologists trying to renew there rorschach test dataset...
 
 If you are on linux there is a release file for this plateform, so that you can give it a try quickly.
-To do that -> go to the mapGeneration file : https://github.com/ThibaultPro/mapGeneration/blob/master/mapGeneration
+To do that -> go to the mapGeneration executable file : https://github.com/ThibaultPro/mapGeneration/blob/master/mapGeneration
 
 Download it.
 
