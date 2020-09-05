@@ -10,9 +10,11 @@ To do that -> go to the mapGeneration file : https://github.com/ThibaultPro/mapG
 Download it.
 
 run the command line 
+
 sudo chmod +x mapGeneration
 
 then launch it :
+
 ./mapGeneration
 
 it should work.
